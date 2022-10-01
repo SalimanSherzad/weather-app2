@@ -62,6 +62,9 @@ function App() {
               {Math.round(weather.main.temp)}°F
             </div>
             <div className="weather-des">{weather.weather[0].main}</div>
+            <div className='temp-min'> Minimum Temp: {Math.round(weather.main.temp_min)}°F </div>
+            <div className='humidity'> Humidity: {weather.main.humidity} </div>
+            <div className='temp-max'> Maximum Temp: {Math.round(weather.main.temp_max)}°F</div>
           </div>
         </div>
         ) : ('')}
