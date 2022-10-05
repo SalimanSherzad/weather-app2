@@ -16,9 +16,16 @@ body {
   transition: 0.4 ease-out;
 }
 
-.app.warm {
-  background-image: url('./images/warm-bg.jpeg');
+.appCold{
+  background-image: url('/Users/salimansherzad/weather-app2/src/images/Blue2Bhour2BFinland_by_Laurence2BNorah.jpeg');
 }
+
+
+
+
+
+
+
 
 main {
   min-height: 100vh;
